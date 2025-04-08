@@ -1,0 +1,33 @@
+{
+  "name": "ashutosh-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^10.16.4",
+    "next": "^14.0.4",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "tailwindcss": "^3.3.5",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.3.20",
+    "@types/three": "^0.175.0",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.3",
+    "typescript": "^5.3.2"
+  }
+}
